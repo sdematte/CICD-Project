@@ -20,5 +20,5 @@ steps:
   inputs:
     orchestratorConnection: 'sdem-orchestrator'
     packagesPath: '$(Build.ArtifactStagingDirectory)\Output'
-    folderName: 'DefaultTenant'
+    folderName: 'Shared'
     entryPoints: 'Main.xaml'
